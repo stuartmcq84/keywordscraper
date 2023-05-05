@@ -1,8 +1,8 @@
 # Keyword Scraper
 Simple rapid automatic keyword extraction (RAKE) tool to scrape keywords from a URL. I built this to use for SEO research, to quickly pull lists of competitor keywords and to find new ideas for content creation. Could easily be modified to use for social media monitoring, customer service or sentiment analysis of customer reviews/feedback.
 ## Table of contents ##
-[1. How to use](https://github.com/stuartmcq84/keywordscraper/edit/main/README.md#hot-to-use)
-[2. Future developements](https://github.com/stuartmcq84/keywordscraper/edit/main/README.md#future-developments)
+[1. How to use](https://github.com/stuartmcq84/keywordscraper/edit/main/README.md#hot-to-use)<br>
+[2. Future developements](https://github.com/stuartmcq84/keywordscraper/edit/main/README.md#future-developments)<br>
 [3. Bugs](https://github.com/stuartmcq84/keywordscraper/edit/main/README.md#bugs)
 
 ## Hot to use ##
@@ -26,4 +26,4 @@ The keywords will be saved to keywordlist.csv. Each time you scrape a URL the ne
 4. Maybe an option to scrape multiple URLs. Currently it scrapes one at a time.
 
 ## Bugs ##
-The Rake object constructor parameters includes include_repeated_phrases=False. However, this doesn't always work. Currently not sure why repated phrases are being included in the keywordlist.csv file.
+The Rake object constructor parameters includes "include_repeated_phrases=False". However, this doesn't always work. Currently not sure why repated phrases are being included in the keywordlist.csv file.
